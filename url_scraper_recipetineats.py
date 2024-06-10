@@ -53,7 +53,7 @@ def get_urls(result, known_urls):
     db.session.add_all(new_records)
     return len(new_records)
 
-if __name__ == '__main__':
+if __name__ == '__main2__':
     headers = {"User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
     base_url = "https://www.recipetineats.com/category/"
     recipe_types = [
